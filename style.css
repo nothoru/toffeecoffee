@@ -4,19 +4,50 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: SoDoSans;
+    src: url(SoDoSans-Bold.ttf);
+}
+
 .navbar-container{
     display: flex;
     justify-content: center;
     border: 1px solid gray;
     padding: 20px 0;
     height: 100px;
+    font-family: SodoSans;
+
 }
 
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex: 1;
 }
 
+.logo{
+    margin-left: 100px;
+}
+
+.navbar-leftside{
+    display: flex;
+    flex: 1;
+}
+
+.menu, .rewards, .giftcards{
+    margin: 20px;
+}
+
+
+.navbar-rightside{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.register{
+    margin-left: 20px;
+    margin-right: 150px;
+}
