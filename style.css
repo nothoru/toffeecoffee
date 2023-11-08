@@ -9,14 +9,10 @@
     src: url(SoDoSans-Bold.ttf);
 }
 
-.navbar-container{
+.flex{
     display: flex;
     justify-content: center;
-    border: 1px solid gray;
-    padding: 20px 0;
-    height: 100px;
-    font-family: SodoSans;
-
+    padding-bottom: 20px;
 }
 
 
@@ -25,6 +21,10 @@
     justify-content: space-between;
     align-items: center;
     flex: 1;
+    border: 1px solid gray;
+    padding: 20px 0;
+    height: 100px;
+    font-family: SodoSans;
 }
 
 .logo{
@@ -50,4 +50,27 @@
 .register{
     margin-left: 20px;
     margin-right: 150px;
+}
+
+
+.item{
+    background-color: #ef3340;
+    color: white;
+    font-size: 19px;
+    font-family: SoDoSans;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 720px;
+    height: 420px;
+}
+
+.item.two p{
+    padding-bottom: 120px;
+    font-size: 25px;
+}
+
+.item.two h1{
+    padding-top: 50px;
 }
