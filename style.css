@@ -1,76 +1,62 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 @font-face {
     font-family: SoDoSans;
     src: url(SoDoSans-Bold.ttf);
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+
+.navbar-container{
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+    border: solid 1px gray;
+}
 
 .navbar{
     display: flex;
+    width: 1450px;
     justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+    font-family: SoDoSans, sans-serif;
     align-items: center;
-    flex: 1;
-    border: 1px solid gray;
-    padding: 20px 0;
-    height: 100px;
-    font-family: SodoSans;
-}
-
-.logo{
-    margin-left: 100px;
-}
-
-.navbar-leftside{
-    display: flex;
-    flex: 1;
-}
-
-.menu, .rewards, .giftcards{
-    margin: 20px;
+    gap: 2rem;
+    margin-left: 40px;
+    
 }
 
 
-.navbar-rightside{
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
+
+.signin{
+    margin-left: auto;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+
 }
 
-.register{
-    margin-left: 20px;
-    margin-right: 150px;
-}
-
-
-.item{
-    background-color: #ef3340;
+.join-now{
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: black;
     color: white;
-    font-size: 19px;
-    font-family: SoDoSans;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 720px;
-    height: 420px;
 }
 
-.item.two p{
-    padding-bottom: 120px;
-    font-size: 25px;
+
+
+a{
+    color: black;
+    text-decoration: none;
 }
 
-.item.two h1{
-    padding-top: 50px;
+a:hover{
+    color: green;
 }
+
