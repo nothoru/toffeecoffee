@@ -8,12 +8,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: SoDoSans, sans-serif;
 }
 
 
 .navbar-container{
     display: flex;
-    padding: 30px 0;
+    padding: 25px 0;
     justify-content: center;
     border: solid 1px gray;
 }
@@ -22,13 +23,12 @@
     display: flex;
     width: 1450px;
     justify-content: space-between;
-    font-size: medium;
+    font-size: 15px;
     font-weight: bold;
     font-family: SoDoSans, sans-serif;
     align-items: center;
     gap: 2rem;
-    margin-left: 40px;
-    
+    margin-left: 30px;
 }
 
 
@@ -36,17 +36,19 @@
 .signin{
     margin-left: auto;
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 25px;
     padding: 10px;
+
 
 }
 
 .join-now{
     border: 1px solid black;
-    border-radius: 40px;
+    border-radius: 25px;
     padding: 10px;
     background-color: black;
     color: white;
+
 }
 
 
@@ -60,3 +62,52 @@ a:hover{
     color: green;
 }
 
+#logo{
+    margin-right: 30px;
+}
+
+
+.box{
+    display: flex;
+    margin-top: 25px;
+    margin-right: 190px;
+    color: white;
+    margin-left: 175px;
+    
+}
+
+.box .item-one{
+    background-color: rgb(0, 98, 65);
+    height: 425px;
+    width: 1450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+
+}
+
+
+
+.box-two{
+    margin-left: 175px;
+    margin-right: 190px;
+    background-color: #AD96DC;
+    display: flex;
+    margin-top: 25px;
+    
+}
+
+
+.box-two .item-two{
+    height: 425px;
+    width: 1450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 80px;
+}
