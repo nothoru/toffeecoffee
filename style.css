@@ -67,7 +67,13 @@ a:hover{
 }
 
 
-.box{
+
+
+
+
+
+
+.box, .box-five{
     display: flex;
     margin-top: 25px;
     margin-right: 190px;
@@ -76,8 +82,7 @@ a:hover{
     
 }
 
-.box .item-one{
-    background-color: rgb(0, 98, 65);
+.box .item-one, .box-five .item-five{
     height: 425px;
     width: 1450px;
     display: flex;
@@ -85,23 +90,41 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-
-
 }
 
-
+.box{
+    background-color: rgb(0, 98, 65);
+}
 
 .box-two{
-    margin-left: 175px;
-    margin-right: 190px;
     background-color: #AD96DC;
-    display: flex;
-    margin-top: 25px;
-    
+}
+
+.box-three{
+    background-color: #76232F;
+    color: white;
+}
+
+.box-four{
+    background-color: #DC0032;
+    color: white;
+}
+
+.box-five{
+    background-color: #156043;
 }
 
 
-.box-two .item-two{
+
+.box-two, .box-three, .box-four{
+    margin-left: 175px;
+    margin-right: 190px;
+    display: flex;
+    margin-top: 25px;
+}
+
+
+.box-two .item-two, .box-three .item-three, .box-four .item-four{
     height: 425px;
     width: 1450px;
     display: flex;
