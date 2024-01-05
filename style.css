@@ -54,6 +54,22 @@ a{
     
 }
 
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+
+.hero-text h1, .hero-text p{
+    padding: 0 0 5px 0;
+}
+
+.hero-text p{
+    font-size: 18px;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -142,8 +158,12 @@ h2{
 button{
     background-color: #3882f6;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
+}
+
+.hero-container button{
+    width: fit-content
 }
 
 
