@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
+/* Try to avoid using margin with px */
 
 *{
     padding: 0;
@@ -53,3 +54,28 @@ a{
     
 }
 
+.menu{
+    text-align: center;
+    padding: 50px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.info-container img{
+    border: 4px solid blue;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.info-container p{
+    padding: 10px;
+}
+
+h2{
+    padding-bottom: 30px;
+}
