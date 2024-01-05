@@ -1,136 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
-@font-face {
-    font-family: SoDoSans;
-    src: url(SoDoSans-Bold.ttf);
-}
 
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: SoDoSans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-
-.navbar-container{
+.container{
     display: flex;
-    padding: 25px 0;
-    justify-content: center;
-    border: solid 1px gray;
+    flex-direction: column;
 }
+
 
 .navbar{
     display: flex;
-    width: 1450px;
-    justify-content: space-between;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: SoDoSans, sans-serif;
+    justify-content: space-around;
     align-items: center;
-    gap: 2rem;
-    margin-left: 30px;
+    padding: 20px;
+    background-color: #1f2937;
+    color: #E5E7EB;
 }
 
-
-
-.signin{
-    margin-left: auto;
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 10px;
-
-
+.right-link ul{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
 }
-
-.join-now{
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 10px;
-    background-color: black;
-    color: white;
-
-}
-
-
 
 a{
-    color: black;
     text-decoration: none;
-}
-
-a:hover{
-    color: green;
-}
-
-#logo{
-    margin-right: 30px;
-}
-
-
-
-
-
-
-
-
-.box, .box-five{
-    display: flex;
-    margin-top: 25px;
-    margin-right: 190px;
-    color: white;
-    margin-left: 175px;
-    
-}
-
-.box .item-one, .box-five .item-five{
-    height: 425px;
-    width: 1450px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.box{
-    background-color: rgb(0, 98, 65);
-}
-
-.box-two{
-    background-color: #AD96DC;
-}
-
-.box-three{
-    background-color: #76232F;
-    color: white;
-}
-
-.box-four{
-    background-color: #DC0032;
-    color: white;
-}
-
-.box-five{
-    background-color: #156043;
-}
-
-
-
-.box-two, .box-three, .box-four{
-    margin-left: 175px;
-    margin-right: 190px;
-    display: flex;
-    margin-top: 25px;
-}
-
-
-.box-two .item-two, .box-three .item-three, .box-four .item-four{
-    height: 425px;
-    width: 1450px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 80px;
+    color: #E5E7EB;
+    font-weight: bolder;
 }
