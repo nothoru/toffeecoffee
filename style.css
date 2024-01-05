@@ -147,3 +147,8 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
