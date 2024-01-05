@@ -15,7 +15,7 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #1f2937;
@@ -33,3 +33,23 @@ a{
     color: #E5E7EB;
     font-weight: bolder;
 }
+
+.hero-container
+{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    gap: 50px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-align: left;
+    
+}
+
