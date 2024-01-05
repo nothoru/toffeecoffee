@@ -105,4 +105,45 @@ h2{
 
 .q-container b{
     align-self: flex-end;
+
+    
+}
+
+.sign-up{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+
+}
+
+.sign-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    flex-basis: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 16px;
+    color: white;
+
+}
+
+.sign-container button{
+    border: solid 2px white;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+
+footer{
+    background-color:#1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
 }
